@@ -19,3 +19,7 @@ font-size: 150%;
   background-size: cover;   
   
 }
+#barrita{
+   color: black; background-color: white;
+   border:  #000 1px solid;
+}
