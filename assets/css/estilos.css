@@ -19,10 +19,3 @@ font-size: 150%;
   background-size: cover;   
   
 }
-
-.border{
-  
-    font-size: 150%;
-  border: white 5px solid;
-  background-color: hsl(180, 50%, 80%);
-}
