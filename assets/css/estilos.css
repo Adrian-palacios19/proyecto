@@ -4,9 +4,9 @@
 */
 
 p{
-font-size: 150%;
-  border: white 5px solid;
-  background-color: hsl(180, 50%, 80%);
+    font-size: 150%;
+    border: white 5px solid;
+    background-color: hsl(180, 50%, 80%);
 
 }
 
@@ -16,10 +16,35 @@ font-size: 150%;
 }
 
 #banner{
-  background-size: cover;   
-  
+    background-size: cover;   
+
 }
 #barrita{
-   color: black; background-color: white;
-   border:  #000 1px solid;
+    color: black; background-color: white;
+    border:  #000 1px solid;
+}
+
+
+#lista{
+    float: right;
+    width: 800px;
+    height:200px;
+    background-color: gainsboro; 
+}
+
+#agregar{
+    float: left;
+    width: 500px;
+    height:420px;
+    background-color: gainsboro; 
+}
+
+#comprar{
+    top: 100px;
+    width: 800px;
+    height:200px;
+    background-color: gainsboro;     
+    position: absolute;
+    right: 0;
+    top: 400px;
 }
