@@ -13,6 +13,7 @@ p{
 #body_imagen_fondo{
     background: url("../imagenes/fondo.jpg");
     background-size: cover;
+
 }
 
 #banner{
@@ -22,29 +23,37 @@ p{
 #barrita{
     color: black; background-color: white;
     border:  #000 1px solid;
+    margin-left:10px;
+    margin-right: 10px;
 }
 
 
 #lista{
     float: right;
-    width: 800px;
+    width: 740px;
     height:200px;
     background-color: gainsboro; 
 }
 
 #agregar{
     float: left;
-    width: 500px;
+    width: 540px;
     height:420px;
     background-color: gainsboro; 
 }
 
 #comprar{
     top: 100px;
-    width: 800px;
+    width: 740px;
     height:200px;
     background-color: gainsboro;     
     position: absolute;
     right: 0;
     top: 400px;
+    margin-right: 10px;
+}
+
+#body{
+    margin-left:10px;
+    margin-right: 10px;
 }
