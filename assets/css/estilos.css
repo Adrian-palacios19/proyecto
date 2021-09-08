@@ -37,20 +37,21 @@ p{
 
 #agregar{
     float: left;
-    width: 540px;
-    height:420px;
+    width: 530px;
+    height:440px;
     background-color: gainsboro; 
+    
 }
 
 #comprar{
     top: 100px;
     width: 740px;
-    height:200px;
+    height:225px;
     background-color: gainsboro;     
     position: absolute;
     right: 0;
     top: 400px;
-    margin-right: 10px;
+    
 }
 
 #body{
@@ -68,3 +69,9 @@ margin-right: 20px;
 margin-bottom: 20px;
 margin-left: 20px;
 }
+
+.botones{
+    position: relative;
+  left: 305px;
+  bottom: 80;
+ }
