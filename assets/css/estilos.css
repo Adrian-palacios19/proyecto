@@ -30,26 +30,32 @@ p{
 
 #lista{
     float: right;
-    width: 720px;
+    width: 710px;
     height:200px;
     background-color: gainsboro; 
+    position: relative;
+    right: 0px;
+    left: 850px;
 }
 
 #agregar{
     float: left;
     width: 530px;
-    height:440px;
+    height:420px;
     background-color: gainsboro; 
-    
+    position: relative;
+    bottom: 199px;
 }
 
 #comprar{
-    top: 390px;
     float: right;
-    width: 720px;
+    width: 710px;
     height:200px;
     background-color: gainsboro; 
-     
+      position: relative;
+    right: 0px;
+    left: 850px;
+    bottom: 410px;
     
     
 }
