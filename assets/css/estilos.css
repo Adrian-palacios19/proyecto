@@ -30,7 +30,7 @@ p{
 
 #lista{
     float: right;
-    width: 740px;
+    width: 720px;
     height:200px;
     background-color: gainsboro; 
 }
@@ -44,13 +44,13 @@ p{
 }
 
 #comprar{
-    top: 100px;
-    width: 740px;
-    height:225px;
-    background-color: gainsboro;     
-    position: absolute;
-    right: 0;
-    top: 400px;
+    top: 390px;
+    float: right;
+    width: 720px;
+    height:200px;
+    background-color: gainsboro; 
+     
+    
     
 }
 
@@ -72,6 +72,7 @@ margin-left: 20px;
 
 .botones{
     position: relative;
-  left: 305px;
-  bottom: 80;
+    bottom: 80px;
+    left: 280px;
  }
+ 
