@@ -82,3 +82,6 @@ margin-left: 20px;
     left: 299px;
  }
  
+ .fondo {
+     background: linear-gradient(#03045e,#0077b6,#48cae4,#caf0f8);
+ }
