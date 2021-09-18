@@ -29,34 +29,36 @@ p{
 
 
 #lista{
-    float: right;
-    width: 710px;
+    
+    width: 650px;
     height:200px;
     background-color: gainsboro; 
     position: relative;
     right: 0px;
-    left: 850px;
+    left: 600px;
 }
 
 #agregar{
-    float: left;
+   
     width: 530px;
     height:420px;
     background-color: gainsboro; 
     position: relative;
     bottom: 199px;
+    left: 50px;
+    
 }
 
 #comprar{
-    float: right;
-    width: 710px;
+  
+    width: 650px;
     height:200px;
     background-color: gainsboro; 
       position: relative;
     right: 0px;
-    left: 850px;
-    bottom: 410px;
-    
+    left: 620px;
+    bottom: 400px; 
+      
     
 }
 
@@ -78,7 +80,7 @@ margin-left: 20px;
 
 .botones{
     position: relative;
-    bottom: 80px;
+    bottom: 100px;
     left: 299px;
  }
  
@@ -86,6 +88,7 @@ margin-left: 20px;
      background: linear-gradient(#03045e,#0077b6,#48cae4,#caf0f8);
  }
 
+<<<<<<< HEAD
 #product {
     margin: 50px auto;
     margin-left: 220px;
@@ -132,3 +135,40 @@ margin-left: 20px;
     color: black;
     text-align: center;
 }
+=======
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .contenido{
+     margin: 3px;
+ }
+ 
+ .cajas{
+     display: table-cell;
+     padding: 0;
+ }
+
+ @media(min-width:768px){
+     .cajas{
+         line-height: 30px;
+     }
+ }
+
+ @media(min-width:1024px){
+    .contenido{
+        width: 1000px;
+        margin: auto;
+    }
+    .cajas{
+        line-height: 40px;
+    }
+}
+
+@media(min-width:2080px){
+.contenido{
+    width: 1200px;
+}
+}
+>>>>>>> 7e742e9b495cb50288a000fa8545313ae2676c81
