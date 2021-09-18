@@ -85,3 +85,50 @@ margin-left: 20px;
  .fondo {
      background: linear-gradient(#03045e,#0077b6,#48cae4,#caf0f8);
  }
+
+#product {
+    margin: 50px auto;
+    margin-left: 220px;
+    width: 158px;
+    padding: 30px;
+    background:rgba(186, 191, 211, 0.171);
+    border-radius: 10px;
+    
+}
+
+#product a {
+    text-decoration: none;
+    color: black;
+}
+
+#matter {
+    margin: 50px auto;
+    margin-top: -233px;
+    width: 180px;
+    padding: 30px;
+    background:rgba(186, 191, 211, 0.171);
+    border-radius: 10px;
+}
+
+#matter a {
+    text-decoration: none;
+    color: black;
+}
+
+#vender {
+
+    margin: 50px auto;
+    margin-right: 200px;
+    margin-top: -233px;
+    width: 180px;
+    padding: 30px;
+    background:rgba(186, 191, 211, 0.171);
+    border-radius: 10px;
+
+}
+
+#vender a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
