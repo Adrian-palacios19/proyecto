@@ -62,8 +62,8 @@ margin-left: 20px;
      background-color: linear-gradient(#03045e,#0077b6,#48cae4,#caf0f8) ;
      padding: 5px;
      display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
+     flex-direction: column;
+     flex-wrap:wrap;
      justify-content: space-between;
  }
 
