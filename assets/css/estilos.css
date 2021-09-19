@@ -64,26 +64,7 @@ margin-left: 20px;
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
+     justify-content: space-between;
  }
 
- @media(min-width:320px){
-     .cajas{
-         line-height: 30px;
-     }
- }
-
- @media(min-width:1024px){
-    .contenido{
-        width: 1000px;
-        margin: auto;
-    }
-    .cajas{
-        line-height: 40px;
-    }
-}
-
-@media(min-width:2080px){
-.contenido{
-    width: 1200px;
-}
-}
+ 
