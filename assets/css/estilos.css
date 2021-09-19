@@ -28,45 +28,6 @@ p{
 }
 
 
-#lista{
-    
-    width: 650px;
-    height:200px;
-    background-color: gainsboro; 
-    position: relative;
-    right: 0px;
-    left: 600px;
-}
-
-#agregar{
-   
-    width: 530px;
-    height:420px;
-    background-color: gainsboro; 
-    position: relative;
-    bottom: 199px;
-    left: 50px;
-    
-}
-
-#comprar{
-  
-    width: 650px;
-    height:200px;
-    background-color: gainsboro; 
-      position: relative;
-    right: 0px;
-    left: 620px;
-    bottom: 400px; 
-      
-    
-}
-
-#body{
-    margin-left:10px;
-    margin-right: 10px;
-}
-
 h5{
     text-align: center;
 }
@@ -78,11 +39,7 @@ margin-bottom: 20px;
 margin-left: 20px;
 }
 
-.botones{
-    position: relative;
-    bottom: 100px;
-    left: 299px;
- }
+
  
  .fondo {
      background: linear-gradient(#03045e,#0077b6,#48cae4,#caf0f8);
@@ -93,16 +50,21 @@ margin-left: 20px;
      padding: 0;
  }
  
- .contenido{
-     margin: 3px;
+ .content{
+     background-color: white;
+     margin: 5px;
+     padding: 20px;
+     color: black;
  }
  
- .cajas{
-     display: table-cell;
-     padding: 0;
+ .container{
+     background-color: linear-gradient(#03045e,#0077b6,#48cae4,#caf0f8) ;
+     padding: 5px;
+     display: flex;
+     flex-direction: row;
  }
 
- @media(min-width:768px){
+ @media(min-width:320px){
      .cajas{
          line-height: 30px;
      }
