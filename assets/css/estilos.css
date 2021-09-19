@@ -3,68 +3,98 @@
     Author     : brsbr
 */
 
-p{
+p {
     font-size: 150%;
     border: white 5px solid;
     background-color: hsl(180, 50%, 80%);
 
 }
 
-#body_imagen_fondo{
+#body_imagen_fondo {
     background: url("../imagenes/fondo.jpg");
     background-size: cover;
 
 }
 
-#banner{
-    background-size: cover;   
+#banner {
+    background-size: cover;
 
 }
-#barrita{
-    color: black; background-color: white;
-    border:  #000 1px solid;
-    margin-left:10px;
+
+#barrita {
+    color: black;
+    background-color: white;
+    border: #000 1px solid;
+    margin-left: 10px;
     margin-right: 10px;
 }
 
 
 
-h5{
+h5 {
     text-align: center;
 }
 
-h6{
+h6 {
     margin-top: 20px;
-margin-right: 20px;
-margin-bottom: 20px;
-margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 
- 
- .fondo {
-     background: linear-gradient(#03045e,#0077b6,#48cae4,#caf0f8);
- }
 
- *{
-     margin: 0;
-     padding: 0;
- }
- 
- .content{
-     background-color: white;
-     margin: 5px;
-     padding: 20px;
-     color: black;
- }
- 
- .container{
-     background-color: linear-gradient(#03045e,#0077b6,#48cae4,#caf0f8) ;
-     padding: 5px;
-     display: flex;
-     flex-direction: column;
-     flex-wrap:wrap;
-     justify-content: space-between;
- }
+.fondo {
+    background: linear-gradient(#03045e, #0077b6, #48cae4, #caf0f8);
+}
 
- 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background-color: white;
+    margin: 7px;
+    padding: 40px;
+    color: black;
+}
+
+.container {
+    background-color: linear-gradient(#03045e, #0077b6, #48cae4, #caf0f8);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.lista {
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    width: 650px;
+    height: 200px;
+}
+
+.comprar {
+
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    width: 650px;
+    height: 200px;
+    position: relative;
+    bottom: 150px;
+    left: 450px;
+}
+
+.botones_derecha {
+    display: inline-block;
+    position: relative;
+    left: 370px;
+    bottom: 50px;
+}
