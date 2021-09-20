@@ -53,7 +53,7 @@ h6 {
     padding: 0;
 }
 
-.content {
+.agregar {
     background-color: white;
     margin: 7px;
     padding: 40px;
@@ -79,18 +79,6 @@ h6 {
     height: 200px;
 }
 
-.comprar {
-
-    background-color: white;
-    margin: 5px;
-    padding: 5px;
-    color: black;
-    width: 650px;
-    height: 200px;
-    position: relative;
-    bottom: 150px;
-    left: 450px;
-}
 
 .botones_derecha {
     display: inline-block;
