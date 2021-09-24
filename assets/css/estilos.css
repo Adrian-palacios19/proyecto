@@ -86,3 +86,25 @@ h6 {
     left: 370px;
     bottom: 50px;
 }
+#menu_d {
+    background-color: white;
+    padding: 50px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-wrap: wrap;
+    border-radius: 10px;
+
+}
+.menu_uno {
+
+    padding: 20px;
+   
+}
+
+.menu_uno a {
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
