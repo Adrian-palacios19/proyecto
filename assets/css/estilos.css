@@ -108,3 +108,23 @@ h6 {
     color:black;
     text-align: center;
 }
+
+.lista_1 {
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    width: 95%;
+    height: 200px;
+}
+
+#sumador {
+   background-color:white;
+   outline: none;
+   border-radius: 20px;
+}
+
+#sumador:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
